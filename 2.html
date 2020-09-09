@@ -3,20 +3,66 @@
 <head>
     <title>My favorite champ ana</title>
     <meta charset="UTF-8">
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177550102-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-177550102-1');
+</script>
+<style>
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    h1{
+        border-bottom: 1px solid gray;
+        margin: 0;
+        text-align: center;
+    }
+    #active{
+        color:red;
+    }
+    #grid{
+        display:grid;
+        grid-template-columns: 150px 1fr;
+        
+    }
+
+    ol{
+        border-right: 1px solid gray;
+        width: 100px;
+        margin: 0;
+        padding-left: 30px;
+        padding: 20px;
+    }
+</style>
 </head>
 
 <body>
-    <h1><a href="index.html">WEB</a></h1>
-    <ol>
-        <li><a href="1.html">HTML</a></li>
-        <li><a href="2.html">CSS</a></li>
-        <li><a href="3.html">javascript</a></li>
-    </ol>
-    <img id = "overwatch_logo" src="overwatch_logo.jpg" width="100" >
-    <br>
-    아나는 생체 소총, 생체 수류탄, 수면총 등 다양한 
-    장비를 활용해 원거리에서 아군을 치유하거나 강화할 수
-     있으며, 동시에 적들을 무력화시킬 수 있습니다.
-    <img src="overwatch_champ_ana1.jpeg" width="500">
+    <h1>WEB</h1>
+
+    <div id="grid">
+        <ol>
+            <li><a href="1.html">HTML</a></li>
+            <li><a href="2.html" id ="active">CSS</a></li>
+            <li><a href="3.html">javascript</a></li>
+        </ol>
+  <div>
+    <p>
+        아나는 생체 소총, 생체 수류탄, 수면총 등 다양한 
+        장비를 활용해 원거리에서 아군을 치유하거나 강화할 수
+         있으며, 동시에 적들을 무력화시킬 수 있습니다.
+    </p>
+  </div>
+    
+        
+</div>
+    
+   
+  
 </body>
 </html>
